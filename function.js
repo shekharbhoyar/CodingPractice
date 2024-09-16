@@ -1,36 +1,41 @@
-console.log('Hello World!!!')
+// console.log('Hello World!!!')
+intro();
 function intro(){
     console.log('Hello World!!!')  
 }
-intro();
+
 //function declaration
-function addSum(num1,num2){
-    return num1 + num2
-}
-const Sum = addSum(16,10);
-console.log(Sum);
+// console.log(Sum);
+// function addSum(num1,num2){
+//     return num1 + num2
+// }
+// const Sum = addSum(16,10);
+
+
 
 
 // function expression
+// console.log(evenNum)
+// const isEven =function(num1){
+//     if(num1%2===0){
+//         return(`${num1} is an even number`)
+//     }
+//     return(`${num1} is an odd number` )
+// }
+// const evenNum =isEven(28)
 
-const isEven =function(num1){
-    if(num1%2===0){
-        return(`${num1} is an even number`)
-    }
-    return(`${num1} is an odd number` )
+addNum();
+const addNum= function(){
+   return('Hello World!!!')
 }
-const evenNum =isEven(28)
-console.log(evenNum)
-
-
 //arrow function
 
-const multiplication=(num1,num2) => {
-    return num1*num2
-}
-let mul=multiplication(7,5)
-console.log(mul)
-console.log(mul)
-console.log(mul)
-console.log(mul)
+// const multiplication=(num1,num2) => {
+//     return num1*num2
+// }
+// let mul=multiplication(7,5)
+// console.log(mul)
+// console.log(mul)
+// console.log(mul)
+// console.log(mul)
 
