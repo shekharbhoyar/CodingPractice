@@ -1,8 +1,8 @@
 // console.log('Hello World!!!')
-intro();
-function intro(){
-    console.log('Hello World!!!')  
-}
+// intro();
+// function intro(){
+//     console.log('Hello World!!!')  
+// }
 
 //function declaration
 // console.log(Sum);
@@ -24,10 +24,10 @@ function intro(){
 // }
 // const evenNum =isEven(28)
 
-addNum();
-const addNum= function(){
-   return('Hello World!!!')
-}
+// addNum();
+// const addNum= function(){
+//    return('Hello World!!!')
+// }
 //arrow function
 
 // const multiplication=(num1,num2) => {
@@ -39,3 +39,13 @@ const addNum= function(){
 // console.log(mul)
 // console.log(mul)
 
+
+//input:anystring
+//output:character on given index position
+
+function firstChar(anystring){
+    return anystring[5]
+}
+console.log(firstChar("rashtrapati"))
+
+//
