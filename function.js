@@ -46,7 +46,7 @@
 function firstChar(anystring){
     return anystring[5]
 }
-console.log(firstChar("rashtrapati"))
+// console.log(firstChar("rashtrapati"))
 
 //input:array target(number)
 //output:index of target if target present in array
@@ -59,5 +59,14 @@ function findTarget(array,target){
    return -1;
 }
 const myArray =[3,8,9,5,0,3,9,7,1,6,3]
-const result=findTarget(myArray,9)
-console.log(result)
+const result=findTarget(myArray,2)
+// console.log(result)
+
+
+//Arrow function
+
+const addNumber = (a,b)=>{
+return a+b;
+}
+const sum = addNumber(3,5);
+console.log(sum);
