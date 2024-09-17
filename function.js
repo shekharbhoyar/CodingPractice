@@ -43,24 +43,24 @@
 //input:anystring
 //output:character on given index position
 
-function firstChar(anystring){
-    return anystring[5]
-}
+// function firstChar(anystring){
+//     return anystring[5]
+// }
 // console.log(firstChar("rashtrapati"))
 
 //input:array target(number)
 //output:index of target if target present in array
-function findTarget(array,target){
-   for(let i=0;i<array.length;i++){
-    if (array[i]===target){
-        return i;
-    }
-   }
-   return -1;
-}
-const myArray =[3,8,9,5,0,3,9,7,1,6,3]
-const result=findTarget(myArray,2)
-// console.log(result)
+// function findTarget(array,target){
+//    for(let i=0;i<array.length;i++){
+//     if (array[i]===target){
+//         return i;
+//     }
+//    }
+//    return -1;
+// }
+// const myArray =[3,8,9,5,0,3,9,7,1,6,3]
+// const result=findTarget(myArray,2)
+// // console.log(result)
 
 
 //Arrow function
@@ -69,4 +69,7 @@ const addNumber = (a,b)=>{
 return a+b;
 }
 const sum = addNumber(3,5);
-console.log(sum);
+// console.log(sum);
+
+const firstCharc = anyString => anyString[3];
+console.log(firstCharc('rashtrapati'))
