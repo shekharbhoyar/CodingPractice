@@ -7,7 +7,7 @@
 //function declaration
 // console.log(Sum);
 // function addSum(num1,num2){
-//     return num1 + num2
+//     return num1 + 
 // }
 // const Sum = addSum(16,10);
 
@@ -71,5 +71,26 @@ return a+b;
 const sum = addNumber(3,5);
 // console.log(sum);
 
-const firstCharc = anyString => anyString[3];
-console.log(firstCharc('rashtrapati'))
+// const firstCharc = anyString => anyString[3];
+// console.log(firstCharc('rashtrapati'))
+
+//default parameters
+//before 2015 or ES6
+// function addTwo(a,b){
+//     if(typeof b ==="undefined"){
+//         b=1;
+//     }
+//     return a+b;
+// }
+// const addition =addTwo(5)
+// console.log(addition)
+
+//after 2015 or ES6
+function addTwo(a,b=1){
+   
+    return a+b;
+}
+const addition =addTwo(5)
+console.log(addition)
+
+
