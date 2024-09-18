@@ -91,7 +91,7 @@ function addTwo(a,b=1){
     return a+b;
 }
 const addition =addTwo(5)
-console.log(addition)
+// console.log(addition)
 
 //rest parameters
 
@@ -101,5 +101,16 @@ function myfunc(a,b,...c){
     console.log('value of c is', c)
 }
 
-myfunc(1,2,3,4,5,)
+// myfunc(1,2,3,4,5,)
+
+//addall
+function addAll(...numbers){
+    let total=0;
+    for(number of numbers){
+        total = total +number;
+    }
+    return total;
+}
+const sumAll=addAll(1,2,3,4,5,6,7,8,9,10)
+console.log(sumAll)
 
