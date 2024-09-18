@@ -137,3 +137,6 @@ function getDetails2({firstName,gender}){
 // getDetails2(person);
 
 
+//Callback function
+
+
