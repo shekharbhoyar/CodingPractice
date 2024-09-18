@@ -112,5 +112,21 @@ function addAll(...numbers){
     return total;
 }
 const sumAll=addAll(1,2,3,4,5,6,7,8,9,10)
-console.log(sumAll)
+// console.log(sumAll)
+
+// parameter destructuring
+// widely used with object and in react
+
+const person ={
+    name:"Chandu",
+    gender:"male"
+}
+
+function getDetails(obj){
+console.log(obj.name);
+console.log(obj.gender)
+}
+getDetails(person);
+
+
 
