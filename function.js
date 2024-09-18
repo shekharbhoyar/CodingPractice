@@ -118,15 +118,22 @@ const sumAll=addAll(1,2,3,4,5,6,7,8,9,10)
 // widely used with object and in react
 
 const person ={
-    name:"Chandu",
+    firstName:"Chandu",
     gender:"male"
 }
 
 function getDetails(obj){
-console.log(obj.name);
+console.log(obj.firstName);
 console.log(obj.gender)
 }
 getDetails(person);
 
+//we can do these same with different method
+
+function getDetails2({firstName,gender}){
+    console.log(firstName);
+    console.log(gender)
+}
+// getDetails2(person);
 
 
