@@ -139,17 +139,42 @@ function getDetails2({firstName,gender}){
 
 //Callback function
 
-function myfunc2(){
+function myfunc2(name){
     console.log('Inside myfunc2')
+    console.log(`my name is ${name}`)
+
 }
 
 
 
 
-function myfunc1(a){
+function myfunc1(Callback){
     // console.log(a)
-//     console.log("hello there!!!")
-     a();
+    console.log("hello there!!!")
+     Callback("Chandu");
 }
 
-myfunc1(myfunc2)
+// myfunc1(myfunc2)
+
+//function returning function
+
+// function myfunc4(){
+//     return "Hello!!!"
+// }
+// // const hi=myfunc4()
+// // console.log(hi)
+// console.log(myfunc4())
+
+
+//other approch
+function myfunc4(){
+    function myfunc5(){
+        // console.log('hiiii iam myfunc5')
+        return "hello "
+    }
+    return myfunc5
+}
+// console.log(myfunc4())
+const hey= myfunc4()
+console.log(hey())
+
