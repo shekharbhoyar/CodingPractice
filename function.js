@@ -93,4 +93,13 @@ function addTwo(a,b=1){
 const addition =addTwo(5)
 console.log(addition)
 
+//rest parameters
+
+function myfunc(a,b,...c){
+    console.log(`value of a is ${a}`)
+    console.log(`value of b is ${b}`)
+    console.log('value of c is', c)
+}
+
+myfunc(1,2,3,4,5,)
 
