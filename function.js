@@ -126,7 +126,7 @@ function getDetails(obj){
 console.log(obj.firstName);
 console.log(obj.gender)
 }
-getDetails(person);
+// getDetails(person);
 
 //we can do these same with different method
 
@@ -139,4 +139,17 @@ function getDetails2({firstName,gender}){
 
 //Callback function
 
+function myfunc2(){
+    console.log('Inside myfunc2')
+}
 
+
+
+
+function myfunc1(a){
+    // console.log(a)
+//     console.log("hello there!!!")
+     a();
+}
+
+myfunc1(myfunc2)
