@@ -31,8 +31,13 @@ const users=[
     {firstName:"Bandhu",age:22},
     {firstName:"Pandu",age:23},
 ]
-users.forEach(function(user){
-    // console.log(user.firstName)
-    console.log(user.age)
-})
+// users.forEach(function(user){
+//     // console.log(user.firstName)
+//     console.log(user.age)
+// })
+//using arrow function
+users.forEach(user=>
+        // console.log(user.firstName)
+        console.log(user.age)
+    )
 
