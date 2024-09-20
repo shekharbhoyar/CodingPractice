@@ -72,11 +72,23 @@ const users=[
 //FILTERS CALLBACK FUNCTION MUST RETURN BOOLEAN VALUE
 //IT GIVES NEW ARRAY
 
-numbers=[2,4,1,3,7,4,9,0,3,,5,0,9,6,8]
-// const isEven= (number)=>{
-//  return number%2===0;
+// numbers=[2,4,1,3,7,4,9,0,3,,5,0,9,6,8]
+// // const isEven= (number)=>{
+// //  return number%2===0;
+// // }
+// const Odd=numbers.filter( (number)=>{
+//     return number%2!==0;
+//    })
+// console.log(Odd)
+
+
+
+//REDUCE METHOD
+const numbers=[1,2,3,4,5,6,7,8,9,10]
+// function addition(accumulator,currentvalue){
+//  return accumulator + currentvalue;
 // }
-const Odd=numbers.filter( (number)=>{
-    return number%2!==0;
-   })
-console.log(Odd)
+const sum=numbers.reduce((accumulator,currentvalue)=>{
+    return accumulator + currentvalue;
+})
+console.log(sum)
