@@ -1,6 +1,6 @@
 //setup for forEach method
 
-const numbers=[4,2,8,3,0,9]
+// const numbers=[4,2,8,3,0,9]
 
 // function myfunc(number,index){
 //    console.log(`number is ${number} and index is ${index}`)
@@ -36,8 +36,19 @@ const users=[
 //     console.log(user.age)
 // })
 //using arrow function
-users.forEach(user=>
-        // console.log(user.firstName)
-        console.log(user.age)
-    )
+// users.forEach(user=>
+//         // console.log(user.firstName)
+//         console.log(user.age)
+//     )
+
+ //MAP METHOD 
+ // map metod return another array
+ //if you are using map function then you should always use 'return' and not'console.log'  
+const numbers=[2,8,4,0,5,4,1,]
+// const square = function(number){
+//     // console.log(number*number)
+//     return number*number
+// }
+const numSquare=numbers.map((number,index)=> {return `index${index},${number}`})
+console.log(numSquare)
 
