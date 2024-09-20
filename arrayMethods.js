@@ -41,7 +41,9 @@ const users=[
 //         console.log(user.age)
 //     )
 
- //MAP METHOD 
+ 
+
+//MAP METHOD 
  // map metod return another array
  //if you are using map function then you should always use 'return' and not'console.log'  
 const numbers=[2,8,4,0,5,4,1,]
@@ -60,4 +62,12 @@ const userss =[
 ]
 // const initial=userss.map((users)=>{return users.firstName})
 const initial=userss.map((users)=>{return users.age})
-console.log(initial)
+// console.log(initial)
+
+
+
+
+//FILTER METHOD
+//IT TAKES CALLBACK FUNCTION AS AN INPUT
+//FILTERS CALLBACK FUNCTION MUST RETURN BOOLEAN VALUE
+//IT GIVES NEW ARRAY
