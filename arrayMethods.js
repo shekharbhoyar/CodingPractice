@@ -50,5 +50,14 @@ const numbers=[2,8,4,0,5,4,1,]
 //     return number*number
 // }
 const numSquare=numbers.map((number,index)=> {return `index${index},${number}`})
-console.log(numSquare)
+// console.log(numSquare)
 
+const userss =[
+    {firstName:"Chandu",age:20},
+    {firstName:"Nandu",age:21},
+    {firstName:"Bandhu",age:22},
+    {firstName:"Pandu",age:23},
+]
+// const initial=userss.map((users)=>{return users.firstName})
+const initial=userss.map((users)=>{return users.age})
+console.log(initial)
